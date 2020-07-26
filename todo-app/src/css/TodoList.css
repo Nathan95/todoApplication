@@ -1,0 +1,68 @@
+hr {
+  border: 1px solid #66bb6a;
+}
+
+.list-group {
+  width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.list-group li {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #004c8c;
+}
+
+.list-group-item-opacity {
+  opacity: 0.4;
+}
+
+.list-group input[type="image"] {
+  width: 1.8em;
+  padding: 0.4rem;
+  border: none;
+  height: 1.5rem;
+  margin-top: 1rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.h3Class {
+  text-align: center;
+  font-family: monospace;
+  color: red;
+}
+
+.completeButton {
+  border: 1px solid #66bb6a;
+  float: right;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: white;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+  background: #66bb6a;
+  cursor: pointer;
+  outline: none;
+}
+
+.completeButtonUnSelected {
+  border: 1px solid #66bb6a;
+  color: #66bb6a;
+  background: white;
+}
+
+.completeButton:hover {
+  background: #338a3e;
+}
