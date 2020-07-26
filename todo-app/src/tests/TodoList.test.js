@@ -35,7 +35,7 @@ it("Displays a completed todo", async () => {
       .first()
       .html()
   ).toEqual(
-    '<li tabindex="0" class="list-group-item list-group-item-opacity"><input type="image" alt="Edit your todo" src="pen.png" title="Edit todo"><input type="image" id="deleteImage" alt="delete your todo" title="Delete todo" src="Trash_font_awesome.png"><span>a</span><button aria-label="Mark a as done" class="completeButton ">✓</button><hr></li>'
+    '<li tabindex="0" class="list-group-item list-group-item-opacity"><input type="image" alt="Edit your todo" src="pen.png" title="Edit todo"><input type="image" id="deleteImage" alt="delete your todo" title="Delete todo" src="Trash_font_awesome.png"><span tabindex="0">a</span><button aria-label="Mark a as done" class="completeButton ">✓</button><hr></li>'
   );
 });
 
@@ -61,7 +61,7 @@ it("Displays a todo as not completed", async () => {
       .first()
       .html()
   ).toEqual(
-    '<li tabindex="0" class="list-group-item "><input type="image" alt="Edit your todo" src="pen.png" title="Edit todo"><input type="image" id="deleteImage" alt="delete your todo" title="Delete todo" src="Trash_font_awesome.png"><span>a</span><button aria-label="Mark a as done" class="completeButton completeButtonUnSelected">✓</button><hr></li>'
+    '<li tabindex="0" class="list-group-item "><input type="image" alt="Edit your todo" src="pen.png" title="Edit todo"><input type="image" id="deleteImage" alt="delete your todo" title="Delete todo" src="Trash_font_awesome.png"><span tabindex="0">a</span><button aria-label="Mark a as done" class="completeButton completeButtonUnSelected">✓</button><hr></li>'
   );
 });
 

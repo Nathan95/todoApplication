@@ -41,7 +41,7 @@ const TodoLiItem = ({
           }
         }}
       />
-      <span>{todo}</span>
+      <span tabIndex={0}>{todo}</span>
       <button
         aria-label={`Mark ${todo} as done`}
         onClick={() => onHandleComplete(id)}
