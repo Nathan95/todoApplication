@@ -4,4 +4,4 @@
 
 `npm start`
 
-To run tests, simply type `npm tests`
+To run tests, simply type `npm test`
